@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.page1__wrapp{
+    width: 100%;
+    height: 668px;
+    background: linear-gradient(267.3deg, rgba(15, 15, 15, 0.86) 8.95%, #1F201F 66.31%);
+    display: flex;
+    flex-direction: column;
+}
+.header__page1{
+    height: 130px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.header__page1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 50px 0px 50px;
+}
+.header__page1 a{
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #26A458;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.header__page1 .logo__header_page1{
+    background-image: url(img/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 78px;
+    height: 78px;
+}
+.main__page1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 538px;
+}
+.img__left_main_page1{
+    background-image:url(img/green-Bambusoideae-left.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 538px;
+}
+.center__main_page1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 60px 20px 0;
+}
+.main__center_main_page1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__center_main_page1 h3{
+    font-family: 'Shojumaru';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 66px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.p__main_center{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.green__p_main{
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #26A458;
+    margin-right: 5px;
+}
+.basic__p_main{
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color:#FFFFFF;
+    text-transform: uppercase;
+}
+.btn__main_center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 51px;
+    border: 1px solid #26A458;
+    font-family: 'Shojumaru';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #26A458;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.img__btn_main{
+    background-image:url(img/green-discordLogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    margin: 0 10px 0 10px;
+    height: 17px;
+}
+.countdown__center_main_page1{
+    display: flex;
+    flex-direction: column;
+}
+.countdown__center_main_page1 h4{
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.countdown__content{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.days__content, .hours__content, .minutes__content, .seconds__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.days__amount, .hours__amount, .minutes__amount, .seconds__amount{
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.txt__days, .txt__hours, .txt__minutes, .txt__seconds{
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;  
+    color: #FFFFFF;
+}
+.img__right_main_page1{
+    background-image:url(img/green-Bambusoideae-right.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 525px;
+}
+
+.page2__wrapp{
+    width: 100%;
+    height: 597px;
+    background-color: #1A201A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+.page2__wrapp h2{
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+.images__page2_wrapp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.img1__images{
+    background-image: url(img/spider-panda.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 350px;
+}
+.img2__images{
+    background-image: url(img/army-panda.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 350px;
+    margin: 0 25px 0 25px;
+}
+.img3__images{
+    background-image: url(img/nasa-panda.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 350px;
+}
+.btn__page2{
+    width: 164px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    font-family: 'Shojumaru';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.page3__wrapp{
+    width: 100%;
+    height: 799px;
+    background: linear-gradient(267.3deg, rgba(15, 15, 15, 0.86) 8.95%, #1F201F 66.31%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.page3__wrapp h2{
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.cards__page3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.card__cards{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 537px;
+    background-color: #1A201A;
+    padding: 30px;
+    margin-right: 25px;
+}
+.img__card{
+    background-image: url(img/batman-panda.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 297px;
+    height: 297px;
+    margin-bottom: 30px;
+}
+.txt__card{
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.btn__page3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 191px;
+    height: 51px;
+    border: 1px solid #FFFFFF;
+    font-family: 'Shojumaru';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.page4__wrapp{
+    width: 100%;
+    height: 593px;
+    background-image: url(img/bg-Panda.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.page4__wrapp h1{
+    font-family: 'Shojumaru';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 66px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.p__page4{
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+.btn__page4{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 51px;
+    border: 1px solid #FFFFFF;
+    font-family: 'Shojumaru';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 35px;
+}
+.img__btn_page4{
+    background-image: url(img/full-discordLogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 21px;
+    margin: 0 10px 0 10px;
+    height: 17px;
+}
+.page5__wrapp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 338px;
+    background-color: #0F0F0F;
+}
+.bottom__page5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.img__left_page5{
+    background-image: url(img/white-Bambusoideae-left.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 240px;
+    height: 270px;
+}
+.main__page5{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.top__page5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.top__page5 a{
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.logo__top_page5{
+    background-image: url(img/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 78px;
+    height: 78px;
+}
+.bottom__page5{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p__bottom{
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.socials__bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.discord__socials{
+    background-image: url(img/full-discordLogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 24px;
+}
+.instagram__socials{
+    background-image: url(img/instagram-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+    margin: 0 10px 0 10px;
+}
+.twitter__socials{
+    background-image: url(img/twitter-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+}
+.img__right_page5{
+    background-image: url(img/white-Bambusoideae-right.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 268px;
+    height: 256px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background:#1F201F; 
+}
+::-webkit-scrollbar-thumb {
+    background:#26A458; 
+}
